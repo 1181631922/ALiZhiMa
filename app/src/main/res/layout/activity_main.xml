@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content">
+
+       <com.chenxq.test.InstrumentView
+           android:id="@+id/iView"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="20dip"
+           android:background="@android:color/white"
+           />
+       <TextView android:id="@+id/txtView"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="40sp"
+           android:layout_gravity="bottom|center_horizontal"
+           android:layout_marginBottom="100dip"
+           android:textColor="#ff00d4af"
+           android:text="350"
+           />
+   </FrameLayout>
+
+
+
+</RelativeLayout>
